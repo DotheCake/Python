@@ -1,5 +1,17 @@
 import openpyxl
 
+'''
+atividade: converter o arquivo csv em xlsx
+- identificar o nome do arquivo
+- abrir o arquivo
+- guardar as informações no arquivo
+- criar um novo arquivo xls
+- iserir as informações guardadas no novo arquivo
+'''
+
+# nome-arquivo = input('Informe o nome do arquivo: ')
+nome_arquivo = 'categorias.csv'
+
 def criar_planilha(arquivo, dados):
     try:
         wb = openpyxl.Workbook()
